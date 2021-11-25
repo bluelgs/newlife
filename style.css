@@ -1,0 +1,43 @@
+#topic {
+    font-size: 50pt;
+    text-align: center;
+    border-bottom: black 1px solid;
+    padding-bottom: 10px;
+    margin: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+#content-group {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+#list {
+    border-right: 1px solid;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+#content {
+    margin: 0px;
+    padding: 20px;
+}
+
+@media(max-width:700px) {
+    #content-group {
+        display: block;
+    }
+
+    #topic {
+        font-size: 20pt;
+    }
+}
+
+@media(min-width:1100px) {
+    #content-group {
+        width: 1100px;
+    }
+}
