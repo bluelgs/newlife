@@ -30,6 +30,9 @@ a {
     #content-group {
         display: block;
     }
+    #list {
+        border-right: none;
+    }
 
     #topic {
         font-size: 20pt;
